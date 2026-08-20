@@ -1,0 +1,6 @@
+Command: zowe endevor generate element DOGGOS08 --type cobol --os --maxrc 0 --sn 1 --cb
+Data:
+[INFO] Running on host: 10.1.2.55:6002 instance: ENDEVOR
+[INFO] GENERATE executed in location:
+        DEV/1/DOGGOS/CUST008 on element: DOGGOS08.cobol
+GENERATE of DOGGOS08.COBOL finished with 0 

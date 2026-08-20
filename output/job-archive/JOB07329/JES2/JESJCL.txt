@@ -1,0 +1,8 @@
+        1 //RUNDOG08  JOB ACCT#,REGION=0M,CLASS=A                                 JOB07329
+        2 //RUN      EXEC PGM=DOGGOS08                                            00010007
+        3 //STEPLIB    DD DISP=SHR,DSN=&SYSUID..PUBLIC.LOADLIB                    00020009
+          IEFC653I SUBSTITUTION JCL - DISP=SHR,DSN=CUST008.PUBLIC.LOADLIB
+        4 //ADOPTS     DD DISP=SHR,DSN=&SYSUID..PUBLIC.INPUT                      00031011
+          IEFC653I SUBSTITUTION JCL - DISP=SHR,DSN=CUST008.PUBLIC.INPUT
+        5 //OUTREP     DD SYSOUT=*                                                00040007
+        6 //SYSOUT     DD SYSOUT=*                                                00050007

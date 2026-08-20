@@ -1,0 +1,24 @@
+Command: zowe jobs submit data-set "CUST008.PUBLIC.JCL(NDRUNDOG)" -d output/job-archive --rfj
+Data:
+{
+  "success": true,
+  "exitCode": 0,
+  "message": "Submitted JCL contained in \"dataset\": \"CUST008.PUBLIC.JCL(NDRUNDOG)\"",
+  "stdout": "\u001b[33mjobid: \u001b[39m  JOB07329\n\u001b[33mretcode: \u001b[39mCC 0000\n\u001b[33mjobname: \u001b[39mRUNDOG08\n\u001b[33mstatus: \u001b[39m OUTPUT\nSuccessfully downloaded output to ./output/job-archive/JOB07329\n",
+  "stderr": "",
+  "data": {
+    "owner": "CUST008",
+    "phase": 20,
+    "subsystem": "JES2",
+    "phase-name": "Job is on the hard copy queue",
+    "job-correlator": "J000732925......E328E91B.......:",
+    "type": "JOB",
+    "url": "https://10.1.2.55:10443/zosmf/restjobs/jobs/J000732925......E328E91B.......%3A",
+    "jobid": "JOB07329",
+    "class": "A",
+    "files-url": "https://10.1.2.55:10443/zosmf/restjobs/jobs/J000732925......E328E91B.......%3A/files",
+    "jobname": "RUNDOG08",
+    "status": "OUTPUT",
+    "retcode": "CC 0000"
+  }
+}

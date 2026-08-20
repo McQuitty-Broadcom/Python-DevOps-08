@@ -33,5 +33,5 @@ def clean(ctx):
 def build(ctx):
     """Build entire program"""
     build_cobol(ctx)
-    build_link(ctx)
+    build_lnk(ctx)
     
